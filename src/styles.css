@@ -6,7 +6,7 @@
 
   color: #3471c7;
   background-color: #367dc8da;
-  background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2018/10/GettyImages-672191744-30b0608.jpg");
+  background-image: url("https://htmlcolorcodes.com/assets/images/colors/baby-blue-color-solid-background-1920x1080.png");
   background-size: auto;
 
   font-synthesis: none;
@@ -34,7 +34,7 @@
 }
 
 .logo.tauri:hover {
-  filter: drop-shadow(0 0 2em #24c8db);
+  filter: drop-shadow(0 0 2em #156fde);
 }
 
 .logo.tauri{
@@ -94,6 +94,12 @@ button {
 
 #greet-input {
   margin-right: 5px;
+}
+
+p{
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 20px;
 }
 
 @media (prefers-color-scheme: dark) {

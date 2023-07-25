@@ -17,9 +17,10 @@ fn ge_weather(geo: &str) -> String{
 
         match update(receiver) {
             Some(response) => match response {
-                Ok(current) => {result = format!("Today's weather in {} is {:?}",
+                Ok(current) => {result = format!("Today's weather in {} is {:?}. {}.",
                     current.name.as_str(),
-                    current.main.temp
+                    current.main.temp,
+                    current.weather[0].main
                 );
                 break;    
             },
